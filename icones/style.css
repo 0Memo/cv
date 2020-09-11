@@ -1,0 +1,257 @@
+@font-face {
+  font-family: 'Guillermo';
+  src:  url('fonts/Guillermo.eot?x4cp7a');
+  src:  url('fonts/Guillermo.eot?x4cp7a#iefix') format('embedded-opentype'),
+    url('fonts/Guillermo.ttf?x4cp7a') format('truetype'),
+    url('fonts/Guillermo.woff?x4cp7a') format('woff'),
+    url('fonts/Guillermo.svg?x4cp7a#Guillermo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Guillermo' !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+span.fr .icon-folder-open-o:before {
+  content: "\f115";
+  background-color: #FA0000;
+  display: block;
+  width: 37.75%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.en .icon-folder-open-o:before {
+  content: "\f115";
+  background-color: #FA0000;
+  display: block;
+  width: 33%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.es .icon-folder-open-o:before {
+  content: "\f115";
+  background-color: #FA0000;
+  display: block;
+  width: 36.55%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.pt .icon-folder-open-o:before {
+  content: "\f115";
+  background-color: #FA0000;
+  display: block;
+  width: 38.15%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.fr .icon-envelope-open-o:before {
+  content: "\f2b7";
+  background-color: #FA0000;
+  display: block;
+  width: 32.55%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.en .icon-envelope-open-o:before {
+  content: "\f2b7";
+  background-color: #FA0000;
+  display: block;
+  width: 28.5%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.es .icon-envelope-open-o:before {
+  content: "\f2b7";
+  background-color: #FA0000;
+  display: block;
+  width: 35.25%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.pt .icon-envelope-open-o:before {
+  content: "\f2b7";
+  background-color: #FA0000;
+  display: block;
+  width: 32.75%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+.icon-drivers-license-o:before {
+  content: "\f2c3";
+}
+span.fr .icon-id-card-o:before {
+  content: "\f2c3";
+  background-color: #FA0000;
+  display: block;
+  width: 15.55%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.en .icon-id-card-o:before {
+  content: "\f2c3";
+  background-color: #FA0000;
+  display: block;
+  width: 26.45%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.es .icon-id-card-o:before {
+  content: "\f2c3";
+  background-color: #FA0000;
+  display: block;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.pt .icon-id-card-o:before {
+  content: "\f2c3";
+  background-color: #FA0000;
+  display: block;
+  width: 15.5%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.fr .icon-linkedin:before {
+  content: "\e904";
+  background-color: #FA0000;
+  display: block;
+  width: 13%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.en .icon-linkedin:before {
+  content: "\e904";
+  background-color: #FA0000;
+  display: block;
+  width: 11.5%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.es .icon-linkedin:before {
+  content: "\e904";
+  background-color: #FA0000;
+  display: block;
+  width: 13%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+span.pt .icon-linkedin:before {
+  content: "\e904";
+  background-color: #FA0000;
+  display: block;
+  width: 13%;
+  height: 100%;
+  position: absolute;
+  top: -27.75px;
+  transition: .5s;
+}
+.icon-adobepremiere:before {
+  content: "\e900";
+  color: #ea77ff;
+}
+.icon-css3:before {
+  content: "\e901";
+  color: #1572b6;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-html5:before {
+  content: "\e902";
+  color: #e34f26;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-javascript:before {
+  content: "\e903";
+  color: #f7df1e;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-microsoftexcel:before {
+  content: "\e905";
+  color: #217346;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-microsoftpowerpoint:before {
+  content: "\e906";
+  color: #d24726;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-microsoftword:before {
+  content: "\e907";
+  color: #2b579a;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-mysql:before {
+  content: "\e908";
+  color: #4479a1;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-php:before {
+  content: "\e909";
+  color: #777bb4;
+  padding: 20px;
+  font-size: 50px;
+}
+.icon-python:before {
+  content: "\e90a";
+  color: #3776ab;
+  padding: 20px;
+  font-size: 50px;
+}
