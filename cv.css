@@ -529,10 +529,10 @@ mark {
 .imgEffets a{
     margin-top: 3%;
     list-style: none;
-    width: 141px;
-    height: 150px;
-    margin-left: 20%;
-    margin-bottom: 15%;
+    width: 120px;
+    height: 130px;
+    margin-left: 25%;
+    margin-bottom: 2%;
     float: left;            
 }
 .imgEffets a:nth-child(3){
