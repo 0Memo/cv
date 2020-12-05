@@ -41,7 +41,7 @@ var responsiveMenu2 = function(){
 }
 
 var typed = new Typed("#typed",{
-    strings: ["Html 5","CSS 3", "JavaScript", "Python", "PhP", "MySQL","Adobe Premiere Pro", "Word", "Excel", "PowerPoint"],
+    strings: ["Html 5", "CSS 3", "SASS", "JavaScript", "Bootstrap", "Python", "PhP", "MySQL", "Adobe Premiere Pro", "Word", "Excel", "PowerPoint"],
     typeSpeed: 100,
     backSpeed:50,
     loop: true
