@@ -728,22 +728,43 @@ mark {
     animation-timing-function: ease-out;
 }
 
-.linkedIn {
-    display: block;
-    margin-top: 8%;
-    color: #fff;
-    font-size: 65px;
-    text-align: center;
-    opacity: 0.4;
-    transition: 2s;
-    text-shadow: black .05em .05em 0,
-    white .08em .08em 0;
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;  
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
 }
 
-.linkedIn:hover {
-    text-decoration: none;
-    opacity: 1;
-    color: rgb(255, 251, 251);
+.contact a.icon:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.contact a.icon:hover {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.contact a.icon:hover:before {
+    top:0;
 }
 
 .fa-chevron-circle-up {
