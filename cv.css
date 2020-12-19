@@ -728,7 +728,7 @@ mark {
     animation-timing-function: ease-out;
 }
 
-.icon {
+.fa-linkedin-in {
   width: 80px;
   height: 80px;
   background-color: #fff;
@@ -746,7 +746,7 @@ mark {
   z-index: 3;
 }
 
-.contact a.icon:before {
+.contact .fa-linkedin-in:before {
   content: "";
   position: absolute;
   top: 100%;
@@ -758,12 +758,12 @@ mark {
   z-index: 2;
 }
 
-.contact a.icon:hover {
+.contact .fa-linkedin-in:hover {
     color: #fff;
     transform: rotateY(360deg);
 }
 
-.contact a.icon:hover:before {
+.contact .fa-linkedin-in:hover:before {
     top:0;
 }
 
