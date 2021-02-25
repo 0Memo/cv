@@ -419,14 +419,14 @@ mark {
     margin-top: 5%;
 }
 
-.firstExperience, .thirdExperience, .lastExperience {
+.firstExperience, .thirdExperience, .fifthExperience {
     border: 5px solid rgba(0, 0, 0, 0.6);
     background: rgba(33, 33, 33, 1);
     color: rgba(126, 124, 124, 0.85);
     padding: 1%;
 }
 
-.firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .lastExperience {
+.firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .fifthExperience, .lastExperience {
     width: 68%;
     margin-top: 5% !important;
     margin: 0 auto;
@@ -469,7 +469,8 @@ mark {
     height: 1px;
     background: #002a21;
 }
-.lastExperience p:nth-child(1)::after{
+
+.fifthExperience p:nth-child(1)::after{
     content: "";
     display: block;
     width: 50.5%;
@@ -479,7 +480,17 @@ mark {
     background: #fff;
 }
 
-.firstExperience p:last-child, .secondExperience p:last-child, .thirdExperience p:last-child, .fourthExperience p:last-child {
+.lastExperience p:nth-child(1)::after{
+    content: "";
+    display: block;
+    width: 48.5%;
+    margin-left: 23px;
+    margin-top: 0.8rem;
+    height: 1px;
+    background: #002a21;
+}
+
+.firstExperience p:last-child, .secondExperience p:last-child, .thirdExperience p:last-child, .fourthExperience p:last-child, .fifthExperience p:last-child {
     margin-bottom: 1%;
 }
 
