@@ -115,10 +115,6 @@ h3 {
         margin-left: 5%;
     }
     
-    .leisure ul li  {
-        margin-left: -15%;
-    }
-    
     .part2 {
         height: 900px;
     }
@@ -155,6 +151,10 @@ h3 {
 @media (max-width: 767px) {
     .fog-img {
         height: 1000px;
+    }
+    
+    .leisure ul li  {
+        margin-left: -25%;
     }
     
     .firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .lastExperience {
