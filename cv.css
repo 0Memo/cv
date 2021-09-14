@@ -150,7 +150,7 @@ h3 {
     }
     
     .leisure ul li  {
-        margin-left: -30%;
+        margin-left: -35%;
     }
     
     .part2 {
@@ -159,6 +159,11 @@ h3 {
     
     .firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .lastExperience {
         margin: 12%;
+    }
+    
+    .imgEffets img {
+        height: 80px;
+        padding-bottom: 20px;
     }
 }
 
