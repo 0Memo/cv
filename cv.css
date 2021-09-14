@@ -99,7 +99,7 @@ h3 {
     }
     
     .imgEffets {
-        margin-bottom: 60px;
+        padding-bottom: 60px;
     }
     
     .imgEffets a {
@@ -113,7 +113,6 @@ h3 {
     
     .imgEffets img:nth-child(1) {
         margin-left: 5%;
-        height: 150px;
     }
     
     .leisure ul li  {
