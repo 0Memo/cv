@@ -80,6 +80,8 @@ h3 {
         margin-right: 8%;
     }
     .imgEffets img {
+        width: 200px;
+        padding-bottom: 20px;
         margin-left: -8%;
     }
 }
@@ -124,6 +126,10 @@ h3 {
     }
     .part2, .part3 {
         height: 100vh;
+    }    
+     
+    .leisure ul li  {
+        margin-left: -25%;
     }
 }
 
@@ -152,7 +158,11 @@ h3 {
     
     .part2, .part3 {
         height: 100vh;
-    }   
+    }
+    
+    .linkedIn {
+        margin-bottom: -60%;
+    }
 }
 
 .list li {
