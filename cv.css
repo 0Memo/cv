@@ -96,6 +96,12 @@ h3 {
     .imgEffets a {
         margin-bottom: 0 !important;
     }
+    
+    .imgEffets img {
+        width: 200px;
+        padding-bottom: 20px;
+    }
+    
     .imgEffets img:nth-child(1) {
         margin-left: 5%;
         height: 150px;
@@ -129,7 +135,7 @@ h3 {
     }    
      
     .leisure ul li  {
-        margin-left: -25%;
+        margin-left: -15%;
     }
 }
 
@@ -149,7 +155,7 @@ h3 {
     .presentation .name {
         top: 30px;
         font-size: 50px;
-        left: 0;
+        left: 10px;
     }
     
     .presentation .title {
