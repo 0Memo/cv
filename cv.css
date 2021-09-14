@@ -119,6 +119,7 @@ h3 {
         margin-left: -15%;
     }
     .presentation .name {
+        top: 25%;
         font-size: 50px;
     }
     .part2, .part3 {
@@ -140,13 +141,13 @@ h3 {
         left: -5%;
     }   
     .presentation .name {
-        top: 10;
+        top: 30px;
         font-size: 50px;
         left: 0;
     }
     
     .presentation .title {
-        left: -5;
+        left: -15px;
     }
     
     .part2, .part3 {
@@ -281,7 +282,7 @@ body {
 .title {
     position: absolute;
     top: 65%;
-    left: 50%;
+    left: 40%;
     font-size: 24px;
     z-index: 1001;
     font-weight: bold;
