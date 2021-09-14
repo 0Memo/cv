@@ -93,12 +93,17 @@ h3 {
     .projects p {
         margin: 5%;
     }
+    
+    .imgEffets {
+        padding-bottom: 10px;
+    }
+    
     .imgEffets a {
         margin-bottom: 0 !important;
     }
     
     .imgEffets img {
-        width: 200px;
+        width: 100px;
         padding-bottom: 20px;
     }
     
@@ -135,7 +140,7 @@ h3 {
     }    
      
     .leisure ul li  {
-        margin-left: -15%;
+        margin-left: -10%;
     }
 }
 
