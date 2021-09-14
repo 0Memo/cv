@@ -140,6 +140,10 @@ h3 {
 }
 
 @media (max-width: 767px) {
+    .fog-img {
+        height: auto !important;
+    }
+    
     .firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .lastExperience {
         margin: 12%;
     }
