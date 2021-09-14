@@ -137,11 +137,11 @@ h3 {
         display: block;
     }
     .list li a img {
-        left: 0;
+        left: -5%;
     }   
     .presentation .name {
-        font-size: 50px;
-        left: -15%;
+        font-size: 40px;
+        left: -25%;
     }
     .part2, .part3 {
         height: 100vh;
