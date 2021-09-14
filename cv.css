@@ -114,10 +114,6 @@ h3 {
     .imgEffets img:nth-child(1) {
         margin-left: 5%;
     }
-    
-    .part2 {
-        height: 900px;
-    }
 }
 
 @media (min-width: 375px ) and (max-width: 975px) {
@@ -155,6 +151,10 @@ h3 {
     
     .leisure ul li  {
         margin-left: -25%;
+    }
+    
+    .part2 {
+        height: 900px;
     }
     
     .firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .lastExperience {
