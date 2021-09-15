@@ -146,7 +146,7 @@ h3 {
 
 @media (max-width: 767px) {
     .fog-container {
-        height: auto !important;
+        height: 100vh !important;
     }
     
     .leisure ul li  {
