@@ -149,26 +149,14 @@ h3 {
         visibility: hidden;
     }
     
-    .presentation::after {
-        content: "";
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        display: block;
-        top: 0;
-        left: 0;
-        background: none;
-        opacity: 0;
+    .presentation {
+        height: auto !important;
         overflow: hidden;
     }
     
 
     .is-visible .presentation::after {
         opacity: 0;
-    }
-    
-    .smallTalk {
-        margin: 0;
     }
     
     .leisure ul li  {
