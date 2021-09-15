@@ -159,11 +159,16 @@ h3 {
         left: 0;
         background: none;
         opacity: 0;
+        overflow: hidden;
     }
     
 
     .is-visible .presentation::after {
         opacity: 0;
+    }
+    
+    .smallTalk {
+        margin: 0;
     }
     
     .leisure ul li  {
