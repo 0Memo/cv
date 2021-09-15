@@ -146,7 +146,7 @@ h3 {
 
 @media (max-width: 767px) {
     .fog-img-first, .fog-img-second {
-        height: 100vh !important;
+        height: 1000px !important;
         overflow: hidden !important;
     }
     
