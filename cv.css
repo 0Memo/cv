@@ -155,11 +155,13 @@ h3 {
     }
     
     .presentation::after {
-        display: none;
+        height: 100%;
+        background: none;
     }
     
 
-    .is-visible .presentation::after {
+    .is-visible .presentation {
+        height: 100vh;
         opacity: 0;
     }
     
