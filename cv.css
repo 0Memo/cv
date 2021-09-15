@@ -154,7 +154,7 @@ h3 {
     }
     
     .part2 {
-        height: 1300px;
+        height: auto !important;
     }
     
     .firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .lastExperience {
@@ -162,7 +162,7 @@ h3 {
     }
     
     .imgEffets img {
-        height: 20% !important;
+        height: 10% !important;
         padding-bottom: 20px;
     }
 }
