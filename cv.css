@@ -146,7 +146,7 @@ h3 {
 
 @media (max-width: 767px) {
     .fog-img {
-        height: 980px !important;
+        height: auto !important;
     }
     
     .leisure ul li  {
@@ -162,7 +162,7 @@ h3 {
     }
     
     .imgEffets img {
-        height: 25% !important;
+        height: 20% !important;
         padding-bottom: 20px;
     }
 }
