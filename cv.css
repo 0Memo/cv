@@ -145,13 +145,13 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .fog-container {
-        visibility: hidden;
+    body {
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
     
-    .presentation {
-        height: 100% !important;
-        overflow: hidden;
+    .fog-container {
+        visibility: hidden;
     }
     
     .presentation::after {
@@ -162,7 +162,7 @@ h3 {
         display: none;
         background: none;
         opacity: 0;
-}
+    }
     
 
     .is-visible .presentation::after {
