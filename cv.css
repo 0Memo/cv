@@ -145,7 +145,7 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .fog-img {
+    .fog-img-first {
         height: auto !important;
     }
     
@@ -162,7 +162,7 @@ h3 {
     }
     
     .imgEffets img {
-        height: 20% !important;
+        height: 15% !important;
         padding-bottom: 20px;
     }
 }
