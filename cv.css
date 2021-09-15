@@ -150,13 +150,20 @@ h3 {
     }
     
     .presentation::after {
+        content: "";
+        position: absolute;
+        width: 100vw;
         height: 100vh;
+        display: block;
+        top: 0;
+        left: 0;
+        background: none;
         opacity: 0;
     }
     
-    .presentation ul+img {
-    height: 100vh;
-    opacity: 0;
+
+    .is-visible .presentation::after {
+        opacity: 0;
     }
     
     .leisure ul li  {
