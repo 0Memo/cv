@@ -145,7 +145,7 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .fog-img-first {
+    #up .presentation {
         height: auto !important;
     }
     
