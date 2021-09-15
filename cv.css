@@ -145,7 +145,7 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .fog-container {
+    .fog-img {
         height: 100vh !important;
     }
     
