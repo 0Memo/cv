@@ -145,9 +145,8 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .fog-img-first, .fog-img-second {
+    header {
         height: 1000px !important;
-        overflow: hidden !important;
     }
     
     .leisure ul li  {
