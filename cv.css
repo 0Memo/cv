@@ -150,7 +150,7 @@ h3 {
     }
     
     .presentation {
-        height: auto !important;
+        height: 100vh !important;
         overflow: hidden;
     }
     
