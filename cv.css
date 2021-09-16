@@ -154,11 +154,11 @@ h3 {
     }
     
     .presentation .title {
-        top: 30%;
+        top: 60%;
     } 
     
     .leisure ul li  {
-        margin-left: -12%;
+        margin-left: -15%;
     }
     
     .part2, .part3 {
@@ -175,7 +175,7 @@ h3 {
     }
     
     .smallTalk {
-        top: 70%;
+        top: 75%;
     }
 }
 
