@@ -154,7 +154,7 @@ h3 {
     }
     
     .leisure ul li  {
-        margin-left: -25%;
+        margin-left: -5%;
     }
     
     .part2, .part3 {
@@ -171,7 +171,7 @@ h3 {
     }
     
     .smallTalk {
-        margin-top: 30%;
+        top: 30%;
     }
 }
 
