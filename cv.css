@@ -136,25 +136,11 @@ h3 {
     }
     .presentation .name {
         top: 35%;
-        left: 35%;
         font-size: 50px;
-    }
-    
-    .smallTalk {
-        top: 25%;
     }
     
     .part2, .part3 {
         height: 100vh;
-    }
-    
-    .presentation::after {
-        content: "";
-        position: absolute;
-        height: 100vh !important;
-        display: none !important;
-        background: none !important;
-        opacity: 0 !important;
     }
     
     .leisure ul li  {
