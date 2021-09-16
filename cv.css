@@ -123,6 +123,20 @@ h3 {
     .list li a img {
         left: 0;
     }
+    
+    .fog-container {
+        visibility: hidden;
+    }
+    
+    .presentation::after {
+        content: "";
+        position: absolute;
+        height: 100vh !important;
+        display: none !important;
+        background: none !important;
+        opacity: 0 !important;
+    }
+    
     .presentation ul + img {
         margin-left: -25%;
         height: 3em;
