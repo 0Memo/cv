@@ -143,7 +143,7 @@ h3 {
         width: 10em;
     }
     .presentation h1 {
-        margin-left: -15%;
+        margin-left: -25%;
     }
     .presentation p:not(.smallTalk) {
         margin-left: -15%;
@@ -172,6 +172,10 @@ h3 {
     .imgEffets img {
         height: 25% !important;
         padding-bottom: 20px;
+    }
+    
+    .smallTalk {
+        margin-top: 10%;
     }
 }
 
