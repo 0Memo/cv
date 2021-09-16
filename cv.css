@@ -136,7 +136,12 @@ h3 {
     }
     .presentation .name {
         top: 35%;
+        left: 35%;
         font-size: 50px;
+    }
+    
+    .smallTalk {
+        top: 25%;
     }
     
     .part2, .part3 {
@@ -165,7 +170,7 @@ h3 {
     }
     
     .imgEffets img {
-        height: 15% !important;
+        height: 25% !important;
         padding-bottom: 20px;
     }
 }
