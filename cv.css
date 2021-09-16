@@ -161,7 +161,10 @@ h3 {
     }
 }
 
-@media (max-width: 767px) {    
+@media (max-width: 767px) {
+    .fog-container {
+        visibility: hidden;
+    }
     .presentation {
         height: 100vh !important;
         overflow-x: hidden !important;
