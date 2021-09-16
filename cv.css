@@ -149,18 +149,8 @@ h3 {
         visibility: hidden;
     }
     
-    .presentation {
+    header {
         overflow-x: hidden;
-    }
-    
-    .presentation::after {
-        display: none;
-    }
-    
-
-    .is-visible .presentation::after {
-        height: 0;
-        opacity: 0;
     }
     
     .leisure ul li  {
