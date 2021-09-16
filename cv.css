@@ -143,7 +143,7 @@ h3 {
         width: 10em;
     }
     .presentation h1 {
-        margin-left: -25%;
+        margin-left: -5%;
     }
     .presentation p:not(.smallTalk) {
         margin-left: -15%;
@@ -175,7 +175,7 @@ h3 {
     }
     
     .smallTalk {
-        margin-top: 10%;
+        margin-top: 30%;
     }
 }
 
