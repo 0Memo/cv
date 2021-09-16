@@ -141,14 +141,36 @@ h3 {
     
     .part2, .part3 {
         height: 100vh;
-    }    
+    }
+    
+    .presentation::after {
+        content: "";
+        position: absolute;
+        height: 100vh !important;
+        display: none !important;
+        background: none !important;
+        opacity: 0 !important;
+    }
+    
+    .leisure ul li  {
+        margin-left: -35%;
+    }
+    
+    .part2 {
+        height: auto !important;
+    }
+    
+    .firstExperience, .secondExperience, .thirdExperience, .fourthExperience, .lastExperience {
+        margin: 12%;
+    }
+    
+    .imgEffets img {
+        height: 15% !important;
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width: 767px) {    
-    .fog-container {
-        visibility: hidden;
-    }
-    
     .presentation {
         height: 100vh !important;
         overflow-x: hidden !important;
