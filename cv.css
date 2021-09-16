@@ -154,6 +154,15 @@ h3 {
         overflow-x: hidden !important;
     }
     
+    .presentation::after {
+        content: "";
+        position: absolute;
+        height: 100vh !important;
+        display: none !important;
+        background: none !important;
+        opacity: 0 !important;
+    }
+    
     .leisure ul li  {
         margin-left: -35%;
     }
