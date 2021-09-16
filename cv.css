@@ -143,7 +143,7 @@ h3 {
         width: 10em;
     }
     .presentation h1 {
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .presentation p:not(.smallTalk) {
         margin-left: -15%;
@@ -153,8 +153,12 @@ h3 {
         font-size: 50px;
     }
     
+    .presentation .title {
+        top: 30%;
+    } 
+    
     .leisure ul li  {
-        margin-left: -10%;
+        margin-left: -12%;
     }
     
     .part2, .part3 {
@@ -171,7 +175,7 @@ h3 {
     }
     
     .smallTalk {
-        top: 60%;
+        top: 70%;
     }
 }
 
